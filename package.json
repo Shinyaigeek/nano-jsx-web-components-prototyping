@@ -1,0 +1,20 @@
+{
+  "name": "nano-jsx-web-components-prototyping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Shinyaigeek/nano-jsx-web-components-prototyping.git",
+  "author": "Shinyaigeek <Philispaxil@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "nano-jsx": "git+ssh://git@github.com/Shinyaigeek/nano.git#feature/define-as-web-coponents-mode"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack-cli": "^4.9.0",
+    "webpack": "^5.58.2"
+  }
+}
